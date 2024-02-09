@@ -1,0 +1,152 @@
+body{
+    background-color: white;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h1{
+    margin-left: 8%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.k_img{
+  background-image: url(./Assets/Nkrumah.jpg);
+  background-size: 500px 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.k_text{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 85%;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+ .e_head{
+    width: 85%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ .e_img{
+    background-image: url(./Assets/1.jpg);
+    background-size: 500px 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+ }
+
+ .e_text{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-top: 5%;
+   
+ }
+ .e_text2{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3%;
+    width: 85%;
+    margin-left: 7%;
+ }
+
+ .l_head{
+    width: 85%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+ }
+
+ nav {
+    background-color:  rgb(17, 170, 137);
+    padding: 10px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav a.nav-button {
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 50px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20%;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav a.nav-button:hover {
+    background-color: lightgreen;
+    color: white;
+    text-decoration: none;
+}
+
+.r_img{
+  background-image: url(./Assets/raw.jpg);
+  background-size: 400px 300px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 10%;
+
+}
+
+.r1_img{
+    background-image: url(./Assets/r1.jpg);
+    background-size: 400px 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 5%;
+}  
+
+.j_img{
+    background-image: url(./Assets/jer.JPG);
+    background-size: 400px 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 5%;
+}  
+
+.j1_img{
+    background-image: url(./Assets/j1.JPG);
+    background-size: 400px 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 5%;
+}  
+
+.r_text{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-top: 5%;
+
+}
